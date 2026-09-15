@@ -1,0 +1,19 @@
+# Domain root for bhuvanrj.me. Portfolio lives at /portfolio/ (separate repo: BhuvRJ/portfolio).
+User-agent: *
+Allow: /
+
+# AI crawlers welcome. Machine-readable summary at /llms.txt and /portfolio/llms-full.txt
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://bhuvanrj.me/portfolio/sitemap.xml
